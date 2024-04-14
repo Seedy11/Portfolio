@@ -1,206 +1,268 @@
+<!-- @format -->
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Porfolio</title>
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav_logo">Seedy</a>
+        </div>
 
-<body>
-   <header class="l-header">
-       <nav class="nav bd-grid">
-           <div>
-               <a href="#" class="nav_logo">Seedy</a>
-           </div>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item"
+              ><a href="#home" class="nav_link active">Home</a></li
+            >
+            <li class="nav_item"
+              ><a href="#about" class="nav_link">About</a></li
+            >
+            <li class="nav_item"
+              ><a href="#skills" class="nav_link">Skills</a></li
+            >
+            <li class="nav_item"><a href="#work" class="nav_link">Works</a></li>
+            <li class="nav_item"
+              ><a href="#contact" class="nav_link">Contact</a></li
+            >
+          </ul>
+        </div>
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-           <div class="nav_menu" id="nav-menu">
-               <ul class="nav_list">
-                   <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
-                   <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
-                   <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
-                   <li class="nav_item"><a href="#work" class="nav_link">Works</a></li>
-                   <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
-               </ul>
-           </div>
-           <div class="nav_toggle" id="nav-toggle">
-               <i class="bx bx-menu"></i>
-           </div>
-       </nav>
-   </header>
+    <main class="l-main">
+      <!-- home section -->
+      <section class="home bd-grid" id="home">
+        <div class="home_data">
+          <h1 class="home_title"
+            >Hi, <br />My name is
+            <span class="home_title-color"
+              >Seedy, I am a Front end developer</span
+            ></h1
+          >
+          <a href="#contact" class="button">Contact</a>
+        </div>
 
-   <main class="l-main">
+        <div class="home_social">
+          <a
+            href="https://www.linkedin.com/in/seedy-darbo-40b4871a0/"
+            class="home_social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/Seedy11" class="home_social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
 
-    <!-- home section -->
-       <section class="home bd-grid" id='home'>
-           <div class="home_data">
-               <h1 class="home_title">Hi, <br>My name is  <span class="home_title-color">Seedy, I am a Front end developer</span></h1>
-               <a href="#contact" class="button">Contact</a>
-           </div>
+        <div class="home_img">
+          <img
+            src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e4a3210a854780006b18efa%2F0x0.jpg"
+            alt="" />
+        </div>
+      </section>
+      <!-- home section ends -->
 
-           <div class="home_social">
-               
-               <a href="https://www.linkedin.com/in/seedy-darbo-40b4871a0/" class="home_social-icon"><i class="bx bxl-linkedin"></i></a>
-               <a href="https://github.com/Seedy11" class="home_social-icon"><i class="bx bxl-github"></i></a>
-           </div>
+      <!-- aboutus Section  -->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
 
-           <div class="home_img">
-               <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5e4a3210a854780006b18efa%2F0x0.jpg" alt="">
-           </div>
-       </section>
-       <!-- home section ends -->
-       
-       <!-- aboutus Section  -->
-        <section class="about section" id="about">
-             <h2 class="section-title">About</h2>
+        <div class="about_container bd-grid">
+          <div class="about_img">
+            <img src="./img/4083_036007_ORIGSIZE[10681].jpg" alt="" />
+          </div>
 
-             <div class="about_container bd-grid">
+          <div>
+            <h2 class="about_subtitle">How i became software developer</h2>
+            <p class="about_text"
+              >My name is Seedy Darbo.I was working at the Ivy Collection
+              restaurant as a Prep chef. During the time I was watching a
+              youtube video to see if there is a possibility I can become a
+              software developer.I have started learning basic code at
+              freecodecamp and codecademy. I am currently working in
+              Dedalus.Dedalus is a global Health Software Company and is one of
+              the largest software companies in the world.
+            </p>
+          </div>
+        </div>
+      </section>
 
-                 <div class="about_img">
-                     <img src="./img/4083_036007_ORIGSIZE[10681].jpg" alt="">
-                 </div>
+      <!-- aboutus section ends -->
 
-                 <div>
-                     <h2 class="about_subtitle">How i became software developer</h2>
-                     <p class="about_text">My name is Seedy Darbo.I was working at the Ivy Collection restaurant as a Prep chef. 
+      <!-- skills scetion start -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
 
-                        During the time I was watching a youtube video to see if there is a possibility I can become a software developer.I have started learning basic code at freecodecamp and codecademy.
-                        
-                        I am currently working in Dedalus.Dedalus is a global Health Software Company and is one of the largest software companies in the world.
-                        </p>
-                 </div>
-             </div>
-        </section>
+        <div class="skills_container bd-grid">
+          <div>
+            <h2 class="skills_subtitle">Programming skills</h2>
 
-        <!-- aboutus section ends -->
-
-        <!-- skills scetion start -->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <div class="skills_container bd-grid">
-                <div>
-                    <h2 class="skills_subtitle">Programming skills</h2>
-                   
-
-                    <div class="skills_data">
-                        <div class="skills_names">
-                            <i class="bx bxl-html5 skills_icon"></i>
-                            <span class="skills_name">HTLM5</span>
-                        </div>
-                        
-    
-                    </div>
-                    <div class="skills_data">
-                        <div class="skills_names">
-                            <i class="bx bxl-css3 skills_icon"></i>
-                            <span class="skills_name">CSS</span>
-                        </div>
-                        
-
-                    </div>
-                    <div class="skills_data">
-                        <div class="skills_names">
-                            <i class="bx bxl-javascript skills_icon"></i>
-                            <span class="skills_name">JavaScript</span>
-                        </div>
-                        
-
-                    </div>
-                    <div class="skills_data">
-                        <div class="skills_names">
-                            <i class="bx bxl-python skills_icon"></i>
-                            <span class="skills_name">Python</span>
-                        </div>
-                       
-
-                    </div>
-                    <div class="skills_data">
-                        <div class="skills_names">
-                            <i class="bx bxl-react skills_icon"></i>
-                            <span class="skills_name">React</span>
-                        </div>
-                        
-                    </div>
-                    <div class="skills_data">
-                        <div class="skills_names">
-                            <i class="bx bxs-data skills_icon"></i>
-                            <span class="skills_sql">SQL</span>
-                        </div>
-                        
-
-                    </div>
-                </div>
-
-                    <div > 
-                        <img src="https://dkdeesign.com/wp-content/uploads/2020/06/119999364_m.jpg" alt="" class="skills_img">
-                    </div>
-                
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-html5 skills_icon"></i>
+                <span class="skills_name">HTLM5</span>
+              </div>
             </div>
-        </section>
-        <!-- skills section ends -->
-
-        <!-- work section start -->
-        <section class="work section" id="work"> 
-             <h2 class="section-title">Work</h2>
-
-            <div class="work_container bd-grid">
-                <div class="work_img">
-                    <img src="./img/256788730_4639070939473250_7377312292236806763_n (1).jpg" alt="">
-                    <div>
-                       <a href="https://seedy11.github.io/Anna_degue/" class="work_button button">View Work</a>
-                       <a href="https://github.com/Seedy11/Anna_degue" class="work_button button">View Code</a>
-                    </div>
-                </div>
-                <div class="work_img">
-                    <img src="https://raw.githubusercontent.com/bedimcode/responsive-ecommerce-website/master/assets/img/offer.jpg" alt="">
-                    <div>
-                        <a href="https://seedy11.github.io/seedy-ecommence/" class="work_button button">View Work</a>
-                        <a href="https://github.com/Seedy11/seedy-ecommence" class="work_button button">View Code</a>
-                     </div>
-                </div>
-                <div class="work_img">
-                    <img src="https://images.pexels.com/photos/2119714/pexels-photo-2119714.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
-                    <div>
-                        <a href="https://bucolic-dusk-dcd062.netlify.app/" class="work_button button">View Work</a>
-                        <a href="https://github.com/Seedy11/RealEstate" class="work_button button">View Code</a>
-                     </div>
-                </div>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-css3 skills_icon"></i>
+                <span class="skills_name">CSS</span>
+              </div>
             </div>
-        </section>
-        <!-- work section ends -->
-
-        <!-- contact section start -->
-        <section class="contact" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="contact_container bd-grid">
-                <form action="" class="contact_form">
-                    <input type="text" class="contact_input" placeholder="Name" required>
-                    <input type="mail" class="contact_input" placeholder="Email" required>
-                    <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
-
-                    <input type="button" value="Enter" class="contact_button button">
-                </form>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-javascript skills_icon"></i>
+                <span class="skills_name">JavaScript</span>
+              </div>
             </div>
-        </section>
-        <!-- contact section ends -->
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-python skills_icon"></i>
+                <span class="skills_name">Python</span>
+              </div>
+            </div>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-react skills_icon"></i>
+                <span class="skills_name">React</span>
+              </div>
+            </div>
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxs-data skills_icon"></i>
+                <span class="skills_sql">SQL</span>
+              </div>
+            </div>
+          </div>
 
-   </main>
+          <div>
+            <img
+              src="https://dkdeesign.com/wp-content/uploads/2020/06/119999364_m.jpg"
+              alt=""
+              class="skills_img" />
+          </div>
+        </div>
+      </section>
+      <!-- skills section ends -->
 
+      <!-- work section start -->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
 
-   <footer class="footer">
-       <p class="footer_title">Seedy</p>
+        <div class="work_container bd-grid">
+          <div class="work_img">
+            <img
+              src="./img/256788730_4639070939473250_7377312292236806763_n (1).jpg"
+              alt="" />
+            <div>
+              <a
+                href="https://seedy11.github.io/Anna_degue/"
+                class="work_button button"
+                >View Work</a
+              >
+              <a
+                href="https://github.com/Seedy11/Anna_degue"
+                class="work_button button"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="work_img">
+            <img
+              src="https://raw.githubusercontent.com/bedimcode/responsive-ecommerce-website/master/assets/img/offer.jpg"
+              alt="" />
+            <div>
+              <a
+                href="https://seedy11.github.io/seedy-ecommence/"
+                class="work_button button"
+                >View Work</a
+              >
+              <a
+                href="https://github.com/Seedy11/seedy-ecommence"
+                class="work_button button"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="work_img">
+            <img
+              src="https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+              alt="" />
+            <div>
+              <a
+                href="https://661bef53eef1b97ad334d13a--phenomenal-hamster-a5e7f3.netlify.app/"
+                class="work_button button"
+                >View Work</a
+              >
+              <a
+                href="https://github.com/Seedy11/Movie-app"
+                class="work_button button"
+                >View Code</a
+              >
+            </div>
+            <!-- https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg -->
+          </div>
+        </div>
+      </section>
+      <!-- work section ends -->
 
-       <div class="footer_social">
-        <a href="https://www.linkedin.com/in/seedy-darbo-40b4871a0/" class="footer-icon"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/Seedy11" class="footer-icon"><i class="bx bxl-github"></i></a>
-       </div>
-       <p>&#169; 2021 copyright all reserved</p>
-   </footer>
+      <!-- contact section start -->
+      <section class="contact" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact_container bd-grid">
+          <form action="" class="contact_form">
+            <input
+              type="text"
+              class="contact_input"
+              placeholder="Name"
+              required />
+            <input
+              type="mail"
+              class="contact_input"
+              placeholder="Email"
+              required />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact_input"></textarea>
+
+            <input type="button" value="Enter" class="contact_button button" />
+          </form>
+        </div>
+      </section>
+      <!-- contact section ends -->
+    </main>
+
+    <footer class="footer">
+      <p class="footer_title">Seedy</p>
+
+      <div class="footer_social">
+        <a
+          href="https://www.linkedin.com/in/seedy-darbo-40b4871a0/"
+          class="footer-icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/Seedy11" class="footer-icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+      </div>
+      <p>&#169; 2021 copyright all reserved</p>
+    </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
